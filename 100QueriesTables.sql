@@ -1,3 +1,4 @@
+/* start C:\Users\evana\Desktop\100Queries\100QueriesTables.sql */
 Set Echo On 
 
 drop table SP;
@@ -48,3 +49,5 @@ INSERT INTO SP VALUES('S3','P2',200);
 INSERT INTO SP VALUES('S4','P2',200);
 INSERT INTO SP VALUES('S4','P4',300);
 INSERT INTO SP VALUES('S4','P5',400);
+
+
