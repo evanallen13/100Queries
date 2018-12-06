@@ -1,5 +1,10 @@
+set echo on 
+set feedback off
+set verify off
+set heading on 
+
 /* start C:\Users\evana\Desktop\100Queries\100Queries.sql */
-SET echo ON 
+
 /* #1 Supplies who supply pruduc P1 */
 SELECT S.Sname from S,SP
 	WHERE SP.P= 'P1'
@@ -127,13 +132,10 @@ SELECT S.S,P.P,S.Status,SP.QTY
 /* #26 Finding the Second Highest */ 
 SELECT MAX(QTY) FROM SP 
 	WHERE QTY NOT IN (SELECT MAX(QTY) FROM SP);
-/* */ 
+
+/* #27 */ 
 SELECT MAX(QTY) FROM Sp 
 	Limit 2;
-
-/* #17 */
-SELECT SName FROM S 
-	WHERE LENGTH(CITY) > 5;
 
 /* #28 */
 SELECT SUBSTR (SName,2) FROM S 
@@ -192,7 +194,4 @@ SELECT CITY, SUM(QTY) AS Total
 
 /* #46 */
 
-/* */ 
-SELECT MAX(QTY) FROM Sp 
-	Limit 2;
 

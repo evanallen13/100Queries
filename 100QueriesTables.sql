@@ -1,9 +1,14 @@
-/* start C:\Users\evana\Desktop\100Queries\100QueriesTables.sql */
-Set Echo On 
+
+set echo on 
+set verify off 
+set feedback off
+set heading off
 
 drop table SP;
 drop table S;
 drop table P;
+
+/* start C:\Users\evana\Desktop\100Queries\100QueriesTables.sql */
 
 create table S( 
 	S varchar(2) PRIMARY KEY,
