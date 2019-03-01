@@ -1,5 +1,5 @@
 
-set echo on 
+set echo off
 set verify off 
 set feedback off
 set heading off
@@ -54,5 +54,3 @@ INSERT INTO SP VALUES('S3','P2',200);
 INSERT INTO SP VALUES('S4','P2',200);
 INSERT INTO SP VALUES('S4','P4',300);
 INSERT INTO SP VALUES('S4','P5',400);
-
-
